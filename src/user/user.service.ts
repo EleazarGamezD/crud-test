@@ -134,7 +134,7 @@ export class UserService {
    * @return {void} throws a BadRequestException
    */
   private handleException(error: any) {
-    throw new BadRequestException(`user exists in DB ${JSON.stringify(error.keyValue)}`)
+    throw new BadRequestException(`${JSON.stringify(error.keyValue)}`)
 
   }
 }

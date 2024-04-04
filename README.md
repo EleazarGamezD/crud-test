@@ -41,7 +41,7 @@ Integrado con Swagger para  pruebas de los endopints tambien se puede usar desde
 
 ## Instrucciones de Ejecución
 
-1. Clona el repositorio: `git clone https://github.com/tuusuario/crud-test.git`
+1. Clona el repositorio: `git clone https://github.com/EleazarGamezD/crud-test`
 2. Instala las dependencias: `npm install`
 3. Ejecuta el proyecto en modo desarrollo: `npm run start:dev`
 4. Ve a tu Navegador Usar si es local usa http://localhost:Tupuertolocal por defecto el puerto es 3000

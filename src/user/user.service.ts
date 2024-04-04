@@ -118,7 +118,11 @@ export class UserService {
    * @return {string} description of return value
    */
   async remove(id: string) {
-    this.userModel.deleteOne({ _id: id })
+    try {
+      await this.userModel.deleteOne({ _id: id })
+    } catch (error) {
+      this.handleException(error)
+    }
     return `The user with id #${id} has been deleted`;
   }
 
